@@ -1,0 +1,287 @@
+2021 Open|United Cows of Farmer John|http://usaco.org/index.php?page=viewproblem2&cpid=1140|0
+2021 Open|Routing Schemes|http://usaco.org/index.php?page=viewproblem2&cpid=1141|0
+2021 Open|Balanced Subsets|http://usaco.org/index.php?page=viewproblem2&cpid=1142|0
+2021 Feb|No Time to Dry|http://usaco.org/index.php?page=viewproblem2&cpid=1116|0
+2021 Feb|Minimizing Edges|http://usaco.org/index.php?page=viewproblem2&cpid=1117|0
+2021 Feb|Counting Graphs|http://usaco.org/index.php?page=viewproblem2&cpid=1118|0
+2021 Jan|Sum of Distances|http://usaco.org/index.php?page=viewproblem2&cpid=1092|0
+2021 Jan|Minimum Cost Paths|http://usaco.org/index.php?page=viewproblem2&cpid=1093|0
+2021 Jan|Paint by Letters|http://usaco.org/index.php?page=viewproblem2&cpid=1094|0
+2020 Dec|Sleeping Cows|http://usaco.org/index.php?page=viewproblem2&cpid=1068|0
+2020 Dec|Spaceship|http://usaco.org/index.php?page=viewproblem2&cpid=1069|0
+2020 Dec|Cowmistry|http://usaco.org/index.php?page=viewproblem2&cpid=1070|0
+2020 Open|Sprinklers 2: Return of the Alfalfa|http://www.usaco.org/index.php?page=viewproblem2&cpid=1044|0
+2020 Open|Exercise|http://www.usaco.org/index.php?page=viewproblem2&cpid=1045|0
+2020 Open|Circus|http://www.usaco.org/index.php?page=viewproblem2&cpid=1046|0
+2020 Feb|Delegation|http://www.usaco.org/index.php?page=viewproblem2&cpid=1020|0
+2020 Feb|Equilateral Triangles|http://www.usaco.org/index.php?page=viewproblem2&cpid=1021|0
+2020 Feb|Help Yourself|http://www.usaco.org/index.php?page=viewproblem2&cpid=1022|0
+2020 Jan|Cave Paintings|http://www.usaco.org/index.php?page=viewproblem2&cpid=996|0
+2020 Jan|Non-Decreasing Subsequences|http://www.usaco.org/index.php?page=viewproblem2&cpid=997|0
+2020 Jan|Falling Portals|http://www.usaco.org/index.php?page=viewproblem2&cpid=998|0
+2019 Dec|Greedy Pie Eaters|http://www.usaco.org/index.php?page=viewproblem2&cpid=972|0
+2019 Dec|Bessie's Snow Cow|http://www.usaco.org/index.php?page=viewproblem2&cpid=973|0
+2019 Dec|Tree Depth|http://www.usaco.org/index.php?page=viewproblem2&cpid=974|0
+2019 Open|Tree Boxes|http://www.usaco.org/index.php?page=viewproblem2&cpid=948|0
+2019 Open|Compound Escape|http://www.usaco.org/index.php?page=viewproblem2&cpid=949|0
+2019 Open|Valleys|http://www.usaco.org/index.php?page=viewproblem2&cpid=950|0
+2019 Feb|Cow Dating|http://www.usaco.org/index.php?page=viewproblem2&cpid=924|0
+2019 Feb|Moorio Kart|http://www.usaco.org/index.php?page=viewproblem2&cpid=925|0
+2019 Feb|Mowing Mischief|http://www.usaco.org/index.php?page=viewproblem2&cpid=926|0
+2019 Jan|Redistricting|http://www.usaco.org/index.php?page=viewproblem2&cpid=900|0
+2019 Jan|Exercise Route|http://www.usaco.org/index.php?page=viewproblem2&cpid=901|0
+2019 Jan|Train Tracking 2|http://www.usaco.org/index.php?page=viewproblem2&cpid=902|0
+2018 Dec|Balance Beam|http://www.usaco.org/index.php?page=viewproblem2&cpid=864|0
+2018 Dec|Sort It Out|http://www.usaco.org/index.php?page=viewproblem2&cpid=865|0
+2018 Dec|The Cow Gathering|http://www.usaco.org/index.php?page=viewproblem2&cpid=866|0
+2018 Open|Out of Sorts|http://www.usaco.org/index.php?page=viewproblem2&cpid=840|0
+2018 Open|Train Tracking|http://www.usaco.org/index.php?page=viewproblem2&cpid=841|0
+2018 Open|Disruption|http://www.usaco.org/index.php?page=viewproblem2&cpid=842|0
+2018 Feb|Slingshot|http://www.usaco.org/index.php?page=viewproblem2&cpid=816|0
+2018 Feb|New Barns|http://www.usaco.org/index.php?page=viewproblem2&cpid=817|0
+2018 Feb|Cow Gymnasts|http://www.usaco.org/index.php?page=viewproblem2&cpid=818|0
+2018 Jan|Lifeguards|http://www.usaco.org/index.php?page=viewproblem2&cpid=792|0
+2018 Jan|Cow at Large|http://www.usaco.org/index.php?page=viewproblem2&cpid=793|0
+2018 Jan|Sprinklers|http://www.usaco.org/index.php?page=viewproblem2&cpid=794|0
+2017 Dec|Standing Out from the Herd|http://www.usaco.org/index.php?page=viewproblem2&cpid=768|0
+2017 Dec|Push a Box|http://www.usaco.org/index.php?page=viewproblem2&cpid=769|0
+2017 Dec|Greedy Gift Takers|http://www.usaco.org/index.php?page=viewproblem2&cpid=770|0
+2017 Open|Modern Art|http://www.usaco.org/index.php?page=viewproblem2&cpid=744|0
+2017 Open|Switch Grass|http://www.usaco.org/index.php?page=viewproblem2&cpid=745|0
+2017 Open|COWBASIC|http://www.usaco.org/index.php?page=viewproblem2&cpid=746|0
+2017 Feb|Why Did the Cow Cross the Road|http://www.usaco.org/index.php?page=viewproblem2&cpid=720|0
+2017 Feb|Why Did the Cow Cross the Road II|http://www.usaco.org/index.php?page=viewproblem2&cpid=721|0
+2017 Feb|Why Did the Cow Cross the Road III|http://www.usaco.org/index.php?page=viewproblem2&cpid=722|0
+2017 Jan|Promotion Counting|http://www.usaco.org/index.php?page=viewproblem2&cpid=696|0
+2017 Jan|Building a Tall Barn|http://www.usaco.org/index.php?page=viewproblem2&cpid=697|0
+2017 Jan|Subsequence Reversal|http://www.usaco.org/index.php?page=viewproblem2&cpid=698|0
+2016 Dec|Lots of Triangles|http://www.usaco.org/index.php?page=viewproblem2&cpid=672|0
+2016 Dec|Team Building|http://www.usaco.org/index.php?page=viewproblem2&cpid=673|0
+2016 Dec|Robotic Cow Herd|http://www.usaco.org/index.php?page=viewproblem2&cpid=674|0
+2016 Open|262144|http://www.usaco.org/index.php?page=viewproblem2&cpid=648|0
+2016 Open|Bull in a China Shop|http://www.usaco.org/index.php?page=viewproblem2&cpid=649|0
+2016 Open|Landscaping|http://www.usaco.org/index.php?page=viewproblem2&cpid=650|0
+2016 Feb|Load Balancing|http://www.usaco.org/index.php?page=viewproblem2&cpid=624|0
+2016 Feb|Fenced In|http://www.usaco.org/index.php?page=viewproblem2&cpid=625|0
+2016 Feb|Circular Barn|http://www.usaco.org/index.php?page=viewproblem2&cpid=626|0
+2016 Jan|Fort Moo|http://www.usaco.org/index.php?page=viewproblem2&cpid=600|0
+2016 Jan|Mowing the Field|http://www.usaco.org/index.php?page=viewproblem2&cpid=601|0
+2016 Jan|Lights Out|http://www.usaco.org/index.php?page=viewproblem2&cpid=602|0
+2015 Dec|Max Flow|http://www.usaco.org/index.php?page=viewproblem2&cpid=576|0
+2015 Dec|High Card Low Card (Platinum)|http://www.usaco.org/index.php?page=viewproblem2&cpid=577|0
+2015 Dec|Counting Haybales|http://www.usaco.org/index.php?page=viewproblem2&cpid=578|0
+2021 Open|United Cows of Farmer John|http://www.usaco.org/index.php?page=viewproblem2&cpid=1137|1
+2021 Open|Portals|http://www.usaco.org/index.php?page=viewproblem2&cpid=1138|1
+2021 Open|Permutation|http://www.usaco.org/index.php?page=viewproblem2&cpid=1139|1
+2021 Feb|Stone Game|http://www.usaco.org/index.php?page=viewproblem2&cpid=1113|1
+2021 Feb|Modern Art 3|http://www.usaco.org/index.php?page=viewproblem2&cpid=1114|1
+2021 Feb|Count the Cows|http://www.usaco.org/index.php?page=viewproblem2&cpid=1115|1
+2021 Jan|Uddered but not Herd|http://www.usaco.org/index.php?page=viewproblem2&cpid=1089|1
+2021 Jan|Telephone|http://www.usaco.org/index.php?page=viewproblem2&cpid=1090|1
+2021 Jan|Dance Mooves|http://www.usaco.org/index.php?page=viewproblem2&cpid=1091|1
+2020 Dec|Replication|http://www.usaco.org/index.php?page=viewproblem2&cpid=1065|1
+2020 Dec|Bovine Genetics|http://www.usaco.org/index.php?page=viewproblem2&cpid=1066|1
+2020 Dec|Square Pasture|http://www.usaco.org/index.php?page=viewproblem2&cpid=1067|1
+2020 Open|Haircut|http://www.usaco.org/index.php?page=viewproblem2&cpid=1041|1
+2020 Open|Favorite Colors|http://www.usaco.org/index.php?page=viewproblem2&cpid=1042|1
+2020 Open|Exercise|http://www.usaco.org/index.php?page=viewproblem2&cpid=1043|1
+2020 Feb|Timeline|http://www.usaco.org/index.php?page=viewproblem2&cpid=1017|1
+2020 Feb|Help Yourself|http://www.usaco.org/index.php?page=viewproblem2&cpid=1018|1
+2020 Feb|Delegation|http://www.usaco.org/index.php?page=viewproblem2&cpid=1019|1
+2020 Jan|Time is Mooney|http://www.usaco.org/index.php?page=viewproblem2&cpid=993|1
+2020 Jan|Farmer John Solves 3SUM|http://www.usaco.org/index.php?page=viewproblem2&cpid=994|1
+2020 Jan|Springboards|http://www.usaco.org/index.php?page=viewproblem2&cpid=995|1
+2019 Dec|Milk Pumping|http://www.usaco.org/index.php?page=viewproblem2&cpid=969|1
+2019 Dec|Milk Visits|http://www.usaco.org/index.php?page=viewproblem2&cpid=970|1
+2019 Dec|Moortal Cowmbat|http://www.usaco.org/index.php?page=viewproblem2&cpid=971|1
+2019 Open|Snakes|http://www.usaco.org/index.php?page=viewproblem2&cpid=945|1
+2019 Open|I Would Walk 500 Miles|http://www.usaco.org/index.php?page=viewproblem2&cpid=946|1
+2019 Open|Balancing Inversions|http://www.usaco.org/index.php?page=viewproblem2&cpid=947|1
+2019 Feb|Cow Land|http://www.usaco.org/index.php?page=viewproblem2&cpid=921|1
+2019 Feb|Dishwashing|http://www.usaco.org/index.php?page=viewproblem2&cpid=922|1
+2019 Feb|Painting the Barn|http://www.usaco.org/index.php?page=viewproblem2&cpid=923|1
+2019 Jan|Cow Poetry|http://www.usaco.org/index.php?page=viewproblem2&cpid=897|1
+2019 Jan|Sleepy Cow Sorting|http://www.usaco.org/index.php?page=viewproblem2&cpid=898|1
+2019 Jan|Shortcut|http://www.usaco.org/index.php?page=viewproblem2&cpid=899|1
+2018 Dec|Fine Dining|http://www.usaco.org/index.php?page=viewproblem2&cpid=861|1
+2018 Dec|Cowpatibility|http://www.usaco.org/index.php?page=viewproblem2&cpid=862|1
+2018 Dec|Teamwork|http://www.usaco.org/index.php?page=viewproblem2&cpid=863|1
+2018 Open|Out of Sorts|http://www.usaco.org/index.php?page=viewproblem2&cpid=837|1
+2018 Open|Milking Order|http://www.usaco.org/index.php?page=viewproblem2&cpid=838|1
+2018 Open|Talent Show|http://www.usaco.org/index.php?page=viewproblem2&cpid=839|1
+2018 Feb|Snow Boots|http://www.usaco.org/index.php?page=viewproblem2&cpid=813|1
+2018 Feb|Directory Traversal|http://www.usaco.org/index.php?page=viewproblem2&cpid=814|1
+2018 Feb|Taming the Herd|http://www.usaco.org/index.php?page=viewproblem2&cpid=815|1
+2018 Jan|MooTube|http://www.usaco.org/index.php?page=viewproblem2&cpid=789|1
+2018 Jan|Cow at Large|http://www.usaco.org/index.php?page=viewproblem2&cpid=790|1
+2018 Jan|Stamp Painting|http://www.usaco.org/index.php?page=viewproblem2&cpid=791|1
+2017 Dec|A Pie for a Pie|http://www.usaco.org/index.php?page=viewproblem2&cpid=765|1
+2017 Dec|Barn Painting|http://www.usaco.org/index.php?page=viewproblem2&cpid=766|1
+2017 Dec|Haybale Feast|http://www.usaco.org/index.php?page=viewproblem2&cpid=767|1
+2017 Open|Bovine Genomics|http://www.usaco.org/index.php?page=viewproblem2&cpid=741|1
+2017 Open|Modern Art 2|http://www.usaco.org/index.php?page=viewproblem2&cpid=743|1
+2017 Feb|Why Did the Cow Cross the Road|http://www.usaco.org/index.php?page=viewproblem2&cpid=717|1
+2017 Feb|Why Did the Cow Cross the Road II|http://www.usaco.org/index.php?page=viewproblem2&cpid=718|1
+2017 Feb|Why Did the Cow Cross the Road III|http://www.usaco.org/index.php?page=viewproblem2&cpid=719|1
+2017 Jan|Balanced Photo|http://www.usaco.org/index.php?page=viewproblem2&cpid=693|1
+2017 Jan|Hoof, Paper, Scissors|http://www.usaco.org/index.php?page=viewproblem2&cpid=694|1
+2017 Jan|Cow Navigation|http://www.usaco.org/index.php?page=viewproblem2&cpid=695|1
+2016 Dec|Moocast|http://www.usaco.org/index.php?page=viewproblem2&cpid=669|1
+2016 Dec|Cow Checklist|http://www.usaco.org/index.php?page=viewproblem2&cpid=670|1
+2016 Dec|Lasers and Mirrors|http://www.usaco.org/index.php?page=viewproblem2&cpid=671|1
+2016 Open|Splitting the Field|http://www.usaco.org/index.php?page=viewproblem2&cpid=645|1
+2016 Open|Closing the Farm|http://www.usaco.org/index.php?page=viewproblem2&cpid=646|1
+2016 Open|248|http://www.usaco.org/index.php?page=viewproblem2&cpid=647|1
+2016 Feb|Circular Barn|http://www.usaco.org/index.php?page=viewproblem2&cpid=621|1
+2016 Feb|Circular Barn Revisited|http://www.usaco.org/index.php?page=viewproblem2&cpid=622|1
+2016 Feb|Fenced In|http://www.usaco.org/index.php?page=viewproblem2&cpid=623|1
+2016 Jan|Angry Cows|http://www.usaco.org/index.php?page=viewproblem2&cpid=597|1
+2016 Jan|Radio Contact|http://www.usaco.org/index.php?page=viewproblem2&cpid=598|1
+2016 Jan|Lights Out|http://www.usaco.org/index.php?page=viewproblem2&cpid=599|1
+2015 Dec|High Card Low Card (Gold)|http://www.usaco.org/index.php?page=viewproblem2&cpid=573|1
+2015 Dec|Fruit Feast|http://www.usaco.org/index.php?page=viewproblem2&cpid=574|1
+2015 Dec|Bessie's Dream|http://www.usaco.org/index.php?page=viewproblem2&cpid=575|1
+2021 Open|Maze Tac Toe|http://www.usaco.org/index.php?page=viewproblem2&cpid=1134|2
+2021 Open|Do You Know Your ABCs?|http://www.usaco.org/index.php?page=viewproblem2&cpid=1135|2
+2021 Open|Acowdemia|http://www.usaco.org/index.php?page=viewproblem2&cpid=1136|2
+2021 Feb|Comfortable Cows|http://www.usaco.org/index.php?page=viewproblem2&cpid=1110|2
+2021 Feb|Year of the Cow|http://www.usaco.org/index.php?page=viewproblem2&cpid=1111|2
+2021 Feb|Just Green Enough|http://www.usaco.org/index.php?page=viewproblem2&cpid=1112|2
+2021 Jan|Dance Mooves|http://www.usaco.org/index.php?page=viewproblem2&cpid=1086|2
+2021 Jan|No Time to Paint|http://www.usaco.org/index.php?page=viewproblem2&cpid=1087|2
+2021 Jan|Spaced Out|http://www.usaco.org/index.php?page=viewproblem2&cpid=1088|2
+2020 Dec|Cowntagion|http://www.usaco.org/index.php?page=viewproblem2&cpid=1062|2
+2020 Dec|Rectangular Pasture|http://www.usaco.org/index.php?page=viewproblem2&cpid=1063|2
+2020 Dec|Stuck in a Rut|http://www.usaco.org/index.php?page=viewproblem2&cpid=1064|2
+2020 Open|Social Distancing|http://www.usaco.org/index.php?page=viewproblem2&cpid=1038|2
+2020 Open|Cereal|http://www.usaco.org/index.php?page=viewproblem2&cpid=1039|2
+2020 Open|The Moo Particle|http://www.usaco.org/index.php?page=viewproblem2&cpid=1040|2
+2020 Feb|Swapity Swapity Swap|http://www.usaco.org/index.php?page=viewproblem2&cpid=1014|2
+2020 Feb|Triangles|http://www.usaco.org/index.php?page=viewproblem2&cpid=1015|2
+2020 Feb|Clock Tree|http://www.usaco.org/index.php?page=viewproblem2&cpid=1016|2
+2020 Jan|Berry Picking|http://www.usaco.org/index.php?page=viewproblem2&cpid=990|2
+2020 Jan|Loan Repayment|http://www.usaco.org/index.php?page=viewproblem2&cpid=991|2
+2020 Jan|Wormhole Sort|http://www.usaco.org/index.php?page=viewproblem2&cpid=992|2
+2019 Dec|MooBuzz|http://www.usaco.org/index.php?page=viewproblem2&cpid=966|2
+2019 Dec|Meetings|http://www.usaco.org/index.php?page=viewproblem2&cpid=967|2
+2019 Dec|Milk Visits|http://www.usaco.org/index.php?page=viewproblem2&cpid=968|2
+2019 Open|Left Out|http://www.usaco.org/index.php?page=viewproblem2&cpid=942|2
+2019 Open|Cow Steeplechase II|http://www.usaco.org/index.php?page=viewproblem2&cpid=943|2
+2019 Open|Fence Planning|http://www.usaco.org/index.php?page=viewproblem2&cpid=944|2
+2019 Feb|Sleepy Cow Herding|http://www.usaco.org/index.php?page=viewproblem2&cpid=918|2
+2019 Feb|Painting the Barn|http://www.usaco.org/index.php?page=viewproblem2&cpid=919|2
+2019 Feb|The Great Revegetation|http://www.usaco.org/index.php?page=viewproblem2&cpid=920|2
+2019 Jan|Grass Planting|http://www.usaco.org/index.php?page=viewproblem2&cpid=894|2
+2019 Jan|Icy Perimeter|http://www.usaco.org/index.php?page=viewproblem2&cpid=895|2
+2019 Jan|Mountain View|http://www.usaco.org/index.php?page=viewproblem2&cpid=896|2
+2018 Dec|Convention|http://www.usaco.org/index.php?page=viewproblem2&cpid=858|2
+2018 Dec|Convention II|http://www.usaco.org/index.php?page=viewproblem2&cpid=859|2
+2018 Dec|Mooyo Mooyo|http://www.usaco.org/index.php?page=viewproblem2&cpid=860|2
+2018 Open|Out of Sorts|http://www.usaco.org/index.php?page=viewproblem2&cpid=834|2
+2018 Open|Lemonade Line|http://www.usaco.org/index.php?page=viewproblem2&cpid=835|2
+2018 Open|Multiplayer Moo|http://www.usaco.org/index.php?page=viewproblem2&cpid=836|2
+2018 Feb|Rest Stops|http://www.usaco.org/index.php?page=viewproblem2&cpid=810|2
+2018 Feb|Snow Boots|http://www.usaco.org/index.php?page=viewproblem2&cpid=811|2
+2018 Feb|Teleportation|http://www.usaco.org/index.php?page=viewproblem2&cpid=812|2
+2018 Jan|Lifeguards|http://www.usaco.org/index.php?page=viewproblem2&cpid=786|2
+2018 Jan|Rental Service|http://www.usaco.org/index.php?page=viewproblem2&cpid=787|2
+2018 Jan|MooTube|http://www.usaco.org/index.php?page=viewproblem2&cpid=788|2
+2017 Dec|My Cow Ate My Homework|http://www.usaco.org/index.php?page=viewproblem2&cpid=762|2
+2017 Dec|Milk Measurement|http://www.usaco.org/index.php?page=viewproblem2&cpid=763|2
+2017 Dec|The Bovine Shuffle|http://www.usaco.org/index.php?page=viewproblem2&cpid=764|2
+2017 Open|Paired Up|http://www.usaco.org/index.php?page=viewproblem2&cpid=738|2
+2017 Open|Bovine Genomics|http://www.usaco.org/index.php?page=viewproblem2&cpid=739|2
+2017 Open|Where's Bessie?|http://www.usaco.org/index.php?page=viewproblem2&cpid=740|2
+2017 Feb|Why Did the Cow Cross the Road|http://www.usaco.org/index.php?page=viewproblem2&cpid=714|2
+2017 Feb|Why Did the Cow Cross the Road II|http://www.usaco.org/index.php?page=viewproblem2&cpid=715|2
+2017 Feb|Why Did the Cow Cross the Road III|http://www.usaco.org/index.php?page=viewproblem2&cpid=716|2
+2017 Jan|Cow Dance Show|http://www.usaco.org/index.php?page=viewproblem2&cpid=690|2
+2017 Jan|Hoof, Paper, Scissors|http://www.usaco.org/index.php?page=viewproblem2&cpid=691|2
+2017 Jan|Secret Cow Code|http://www.usaco.org/index.php?page=viewproblem2&cpid=692|2
+2016 Dec|Counting Haybales|http://www.usaco.org/index.php?page=viewproblem2&cpid=666|2
+2016 Dec|Cities and States|http://www.usaco.org/index.php?page=viewproblem2&cpid=667|2
+2016 Dec|Moocast|http://www.usaco.org/index.php?page=viewproblem2&cpid=668|2
+2016 Open|Field Reduction|http://www.usaco.org/index.php?page=viewproblem2&cpid=642|2
+2016 Open|Diamond Collector|http://www.usaco.org/index.php?page=viewproblem2&cpid=643|2
+2016 Open|Closing the Farm|http://www.usaco.org/index.php?page=viewproblem2&cpid=644|2
+2016 Feb|Circular Barn|http://www.usaco.org/index.php?page=viewproblem2&cpid=618|2
+2016 Feb|Load Balancing|http://www.usaco.org/index.php?page=viewproblem2&cpid=619|2
+2016 Feb|Milk Pails|http://www.usaco.org/index.php?page=viewproblem2&cpid=620|2
+2016 Jan|Angry Cows|http://www.usaco.org/index.php?page=viewproblem2&cpid=594|2
+2016 Jan|Subsequences Summing to Sevens|http://www.usaco.org/index.php?page=viewproblem2&cpid=595|2
+2016 Jan|Build Gates|http://www.usaco.org/index.php?page=viewproblem2&cpid=596|2
+2015 Dec|Switching on the Lights|http://www.usaco.org/index.php?page=viewproblem2&cpid=570|2
+2015 Dec|High Card Wins|http://www.usaco.org/index.php?page=viewproblem2&cpid=571|2
+2015 Dec|Breed Counting|http://www.usaco.org/index.php?page=viewproblem2&cpid=572|2
+2021 Open|Acowdemia I|http://www.usaco.org/index.php?page=viewproblem2&cpid=1131|3
+2021 Open|Acowdemia II|http://www.usaco.org/index.php?page=viewproblem2&cpid=1132|3
+2021 Open|Acowdemia III|http://www.usaco.org/index.php?page=viewproblem2&cpid=1133|3
+2021 Feb|Year of the Cow|http://www.usaco.org/index.php?page=viewproblem2&cpid=1107|3
+2021 Feb|Comfortable Cows|http://www.usaco.org/index.php?page=viewproblem2&cpid=1108|3
+2021 Feb|Clockwise Fence|http://www.usaco.org/index.php?page=viewproblem2&cpid=1109|3
+2021 Jan|Uddered but not Herd|http://www.usaco.org/index.php?page=viewproblem2&cpid=1083|3
+2021 Jan|Even More Odd Photos|http://www.usaco.org/index.php?page=viewproblem2&cpid=1084|3
+2021 Jan|Just Stalling|http://www.usaco.org/index.php?page=viewproblem2&cpid=1085|3
+2020 Dec|Do You Know Your ABCs?|http://www.usaco.org/index.php?page=viewproblem2&cpid=1059|3
+2020 Dec|Daisy Chains|http://www.usaco.org/index.php?page=viewproblem2&cpid=1060|3
+2020 Dec|Stuck in a Rut|http://www.usaco.org/index.php?page=viewproblem2&cpid=1061|3
+2020 Open|Social Distancing I|http://www.usaco.org/index.php?page=viewproblem2&cpid=1035|3
+2020 Open|Social Distancing II|http://www.usaco.org/index.php?page=viewproblem2&cpid=1036|3
+2020 Open|Cowntact Tracing|http://www.usaco.org/index.php?page=viewproblem2&cpid=1037|3
+2020 Feb|Triangles|http://www.usaco.org/index.php?page=viewproblem2&cpid=1011|3
+2020 Feb|Mad Scientist|http://www.usaco.org/index.php?page=viewproblem2&cpid=1012|3
+2020 Feb|Swapity Swap|http://www.usaco.org/index.php?page=viewproblem2&cpid=1013|3
+2020 Jan|Word Processor|http://www.usaco.org/index.php?page=viewproblem2&cpid=987|3
+2020 Jan|Photoshoot|http://www.usaco.org/index.php?page=viewproblem2&cpid=988|3
+2020 Jan|Race|http://www.usaco.org/index.php?page=viewproblem2&cpid=989|3
+2019 Dec|Cow Gymnastics|http://www.usaco.org/index.php?page=viewproblem2&cpid=963|3
+2019 Dec|Where Am I?|http://www.usaco.org/index.php?page=viewproblem2&cpid=964|3
+2019 Dec|Livestock Lineup|http://www.usaco.org/index.php?page=viewproblem2&cpid=965|3
+2019 Open|Bucket Brigade|http://www.usaco.org/index.php?page=viewproblem2&cpid=939|3
+2019 Open|Milk Factory|http://www.usaco.org/index.php?page=viewproblem2&cpid=940|3
+2019 Open|Cow Evolution|http://www.usaco.org/index.php?page=viewproblem2&cpid=941|3
+2019 Feb|Sleepy Cow Herding|http://www.usaco.org/index.php?page=viewproblem2&cpid=915|3
+2019 Feb|The Great Revegetation|http://www.usaco.org/index.php?page=viewproblem2&cpid=916|3
+2019 Feb|Measuring Traffic|http://www.usaco.org/index.php?page=viewproblem2&cpid=917|3
+2019 Jan|Shell Game|http://www.usaco.org/index.php?page=viewproblem2&cpid=891|3
+2019 Jan|Sleepy Cow Sorting|http://www.usaco.org/index.php?page=viewproblem2&cpid=892|3
+2019 Jan|Guess the Animal|http://www.usaco.org/index.php?page=viewproblem2&cpid=893|3
+2018 Dec|Mixing Milk|http://www.usaco.org/index.php?page=viewproblem2&cpid=855|3
+2018 Dec|The Bucket List|http://www.usaco.org/index.php?page=viewproblem2&cpid=856|3
+2018 Dec|Back and Forth|http://www.usaco.org/index.php?page=viewproblem2&cpid=857|3
+2018 Open|Team Tic Tac Toe|http://www.usaco.org/index.php?page=viewproblem2&cpid=831|3
+2018 Open|Milking Order|http://www.usaco.org/index.php?page=viewproblem2&cpid=832|3
+2018 Open|Family Tree|http://www.usaco.org/index.php?page=viewproblem2&cpid=833|3
+2018 Feb|Teleportation|http://www.usaco.org/index.php?page=viewproblem2&cpid=807|3
+2018 Feb|Hoofball|http://www.usaco.org/index.php?page=viewproblem2&cpid=808|3
+2018 Feb|Taming the Herd|http://www.usaco.org/index.php?page=viewproblem2&cpid=809|3
+2018 Jan|Blocked Billboard II|http://www.usaco.org/index.php?page=viewproblem2&cpid=783|3
+2018 Jan|Lifeguards|http://www.usaco.org/index.php?page=viewproblem2&cpid=784|3
+2018 Jan|Out of Place|http://www.usaco.org/index.php?page=viewproblem2&cpid=785|3
+2017 Dec|Blocked Billboard|http://www.usaco.org/index.php?page=viewproblem2&cpid=759|3
+2017 Dec|The Bovine Shuffle|http://www.usaco.org/index.php?page=viewproblem2&cpid=760|3
+2017 Dec|Milk Measurement|http://www.usaco.org/index.php?page=viewproblem2&cpid=761|3
+2017 Open|The Lost Cow|http://www.usaco.org/index.php?page=viewproblem2&cpid=735|3
+2017 Open|Bovine Genomics|http://www.usaco.org/index.php?page=viewproblem2&cpid=736|3
+2017 Open|Modern Art|http://www.usaco.org/index.php?page=viewproblem2&cpid=737|3
+2017 Feb|Why Did the Cow Cross the Road|http://www.usaco.org/index.php?page=viewproblem2&cpid=711|3
+2017 Feb|Why Did the Cow Cross the Road II|http://www.usaco.org/index.php?page=viewproblem2&cpid=712|3
+2017 Feb|Why Did the Cow Cross the Road III|http://www.usaco.org/index.php?page=viewproblem2&cpid=713|3
+2017 Jan|Don't Be Last!|http://www.usaco.org/index.php?page=viewproblem2&cpid=687|3
+2017 Jan|Hoof, Paper, Scissors|http://www.usaco.org/index.php?page=viewproblem2&cpid=688|3
+2017 Jan|Cow Tipping|http://www.usaco.org/index.php?page=viewproblem2&cpid=689|3
+2016 Dec|Square Pasture|http://www.usaco.org/index.php?page=viewproblem2&cpid=663|3
+2016 Dec|Block Game|http://www.usaco.org/index.php?page=viewproblem2&cpid=664|3
+2016 Dec|The Cow-Signal|http://www.usaco.org/index.php?page=viewproblem2&cpid=665|3
+2016 Open|Diamond Collector|http://www.usaco.org/index.php?page=viewproblem2&cpid=639|3
+2016 Open|Bull in a China Shop|http://www.usaco.org/index.php?page=viewproblem2&cpid=640|3
+2016 Open|Field Reduction|http://www.usaco.org/index.php?page=viewproblem2&cpid=641|3
+2016 Feb|Milk Pails|http://www.usaco.org/index.php?page=viewproblem2&cpid=615|3
+2016 Feb|Circular Barn|http://www.usaco.org/index.php?page=viewproblem2&cpid=616|3
+2016 Feb|Load Balancing|http://www.usaco.org/index.php?page=viewproblem2&cpid=617|3
+2016 Jan|Promotion Counting|http://www.usaco.org/index.php?page=viewproblem2&cpid=591|3
+2016 Jan|Angry Cows|http://www.usaco.org/index.php?page=viewproblem2&cpid=592|3
+2016 Jan|Mowing the Field|http://www.usaco.org/index.php?page=viewproblem2&cpid=593|3
+2015 Dec|Fence Painting|http://www.usaco.org/index.php?page=viewproblem2&cpid=567|3
+2015 Dec|Speeding Ticket|http://www.usaco.org/index.php?page=viewproblem2&cpid=568|3
+2015 Dec|Contaminated Milk|http://www.usaco.org/index.php?page=viewproblem2&cpid=569|3
