@@ -111,7 +111,10 @@
 		// recalculateEverything($conn);
 	}else if($type == 6) {
 		// Increase visit counter :D
-		$res = $conn -> query("UPDATE stats SET value = value + 1 WHERE type = 'visit'");
+		$date = date("m-d-Y");
+		$conn -> query("INSERT INTO stats (type,value) VALUES ('" . $date . "',1) 
+			ON DUPLICATE KEY UPDATE value = value + 1;");
+		$conn -> query("UPDATE stats SET value = value + 1 WHERE type = 'visit'");
 	}
 
 	function recalculateEverything($conn) {
