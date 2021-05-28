@@ -7,7 +7,6 @@
     <meta name="renderer" content="webkit">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <!-- <link rel="icon" href="https://codetiger.me/image/article/image16.png"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="icon" href="./favicon.png">
 
@@ -32,6 +31,8 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+	<script src="./js/cookieIO.js"></script>
+
 </head>
 
 <body>
@@ -74,6 +75,10 @@
 	</nav>
 
 	<div class="main-container">
+		<div class="custom-control custom-switch" style="display: inline-flex;margin-right: 10px;">
+			<input type="checkbox" class="custom-control-input" id="practice">
+			<label class="custom-control-label" for="practice">Practice Mode</label>
+		</div>
 		<div class="custom-control custom-switch" style="display: inline-flex;margin-right: 20px;">
 			<input type="checkbox" class="custom-control-input" id="median">
 			<label class="custom-control-label" for="median">Use Median</label>
@@ -115,8 +120,32 @@
 			<tbody class="problems">
 			</tbody>
 		</table>
-
-		<script src="./js/index.js"></script>
 	</div>
+
+	<!-- Announcements -->
+	<div class="modal fade" id="Announcements" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="announcementTitles">Updates</h4>
+				</div>
+				<div class="modal-body">
+        			<h5>5/28/2021</h5>
+        			<ul>
+        				<li>Added <b>practice mode</b>! You can mark questions you've done with different colors like <a href="https://oichecklist.pythonanywhere.com/">oichecklist</a>. Try it out by clicking on cells with the problem names after enabling practice mode.</li>
+        				<li>You no longer need to keep looking for your invite link. Just use it once and you can directly access the voting page through the <b>Vote</b> tab on the navigation bar!</li>
+        				<li>We now have successfully given a rating to <b>all of the problems</b>! A huge thanks to our contributors(I will create a top contributor page soon to honor them).</li>
+        				<li>Added <b>announcement</b>/update system to display the newest additions :D</li>
+        			</ul><br>
+        			Also reminder to give your feedback by going to our <a href="https://github.com/CodeTiger927/USACO-Rating/issues">github page</a>, or upvote suggestions you like most &hearts;
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="./js/index.js"></script>
 </body>
 </html>

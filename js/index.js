@@ -2,14 +2,26 @@ var data = null;
 var sortMode = 0;
 var curD = 0;
 var useMedian = false;
+var practiceMode = false;
+
+var lastUpdate = "5-28-2021";
+var lastSeen = readCookie("lastSeen");
 
 $.post("./backend/data.php",{"type": 6});
 
 $.post("./backend/data.php",{"type": 1},function(res) {
 	data = res;
 	$('#median').bind('change', function(){useMedian ^= 1;display(curD)});
+	$('#practice').bind('change', function(){practiceMode ^= 1;display(curD)});
 	sortProblems(0);
+	displayAnnouncement();
 });
+
+function displayAnnouncement() {
+	if(lastSeen == lastUpdate) return;
+	writeCookie("lastSeen",lastUpdate,365);
+	$('#Announcements').modal('show');
+}
 
 function rating2Str(rating,cnt) {
 	var res = '<td style="';
@@ -91,6 +103,28 @@ function quality2Str(quality,cnt) {
 	return res;
 }
 
+function updateStatus(id) {
+	var cur = (getStatus(id) + 1) % 4;
+	writeCookie("Status" + id,cur);
+	return cur;
+}
+
+function statusToColor(status) {
+	if(status == 0) return "#FFFFFF";
+	if(status == 1) return "#FFEEBA";
+	if(status == 2) return "#B8DAFF";
+	return "#C3E6CB";
+}
+
+function getStatus(id) {
+	var res = parseInt(readCookie("Status" + id));
+	if(res) {
+		return res;
+	}
+	writeCookie("Status" + id,0);
+	return 0;
+}
+
 function display(type) {
 	$("#b" + curD).removeClass("active");
 	$("#b" + type).addClass("active");
@@ -102,7 +136,16 @@ function display(type) {
 		if(curEntry["type"] != type) continue;
 		p.append("<tr>");
 		p.append('<th scope="row">' + curEntry["contest"] + '</th>');
-		p.append('<td><a href="' + curEntry["url"] + '" target="_blank">' + curEntry["name"] + '</a></td>');
+		if(practiceMode) {
+			p.append('<td id="' + curEntry["id"] + 'p" style="background-color: ' + statusToColor(getStatus(curEntry["id"])) + '"><a href="' + curEntry["url"] + '" target="_blank">' + curEntry["name"] + '</a></td>');
+			$('#' + curEntry["id"] + 'p').click(function(event) {
+				var id = parseInt($(event.target).attr("id").slice(0,-1));
+				var status = updateStatus(id);
+				$(event.target).css("background-color",statusToColor(status));
+			})
+		}else{
+			p.append('<td id="' + curEntry["id"] + 'p"><a href="' + curEntry["url"] + '" target="_blank">' + curEntry["name"] + '</a></td>');
+		}
 		if(useMedian) {
 			p.append(rating2Str(curEntry["rating2"],curEntry["cnt1"]));
 			p.append(quality2Str(curEntry["quality2"],curEntry["cnt2"]));
