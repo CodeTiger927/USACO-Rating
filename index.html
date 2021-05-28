@@ -11,6 +11,7 @@
     <link rel="icon" href="./favicon.png">
 
      <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/utility.css">
 
     <meta name="keywords" content="codetiger,blog,usaco,codeforces,rating,estimator,practice,converter">
     <meta name="description" content="A tool to estimate the difficulties of USACO problems in terms of CodeForces rating.">
@@ -75,10 +76,11 @@
 	</nav>
 
 	<div class="main-container">
-		<div class="custom-control custom-switch" style="display: inline-flex;margin-right: 10px;">
+		<div class="custom-control custom-switch" style="display: inline-flex">
 			<input type="checkbox" class="custom-control-input" id="practice">
 			<label class="custom-control-label" for="practice">Practice Mode</label>
 		</div>
+		<span id="HelpBadgeTooltip-difficulty" class="badge badge-secondary badge-pill" style="display: inline-flex;margin-right: 15px;" data-toggle="popover" data-content="Progress are stored locally via Cookies. Click on cells with problem names to update their status." data-original-title="" title="">?</span>
 		<div class="custom-control custom-switch" style="display: inline-flex;margin-right: 20px;">
 			<input type="checkbox" class="custom-control-input" id="median">
 			<label class="custom-control-label" for="median">Use Median</label>

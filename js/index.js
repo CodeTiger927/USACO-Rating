@@ -138,7 +138,7 @@ function display(type) {
 		p.append("<tr>");
 		p.append('<th scope="row">' + curEntry["contest"] + '</th>');
 		if(practiceMode) {
-			p.append('<td id="' + curEntry["id"] + 'p" style="background-color: ' + statusToColor(getStatus(curEntry["id"])) + '"><a href="' + curEntry["url"] + '" target="_blank">' + curEntry["name"] + '</a></td>');
+			p.append('<td id="' + curEntry["id"] + 'p" style="background-color: ' + statusToColor(getStatus(curEntry["id"])) + '" class="unselectable"><a href="' + curEntry["url"] + '" target="_blank">' + curEntry["name"] + '</a></td>');
 			$('#' + curEntry["id"] + 'p').click(function(event) {
 				var id = parseInt($(event.target).attr("id").slice(0,-1));
 				var status = updateStatus(id);

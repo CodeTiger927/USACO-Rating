@@ -2,3 +2,10 @@ hr {
 	margin-top: 10px;
 	margin-bottom: 10px
 }
+
+.unselectable {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
