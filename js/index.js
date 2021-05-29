@@ -5,18 +5,24 @@ var useMedian = false;
 var practiceMode = true;
 
 var lastUpdate = "5-28-2021";
-var lastSeen = readCookie("lastSeen");
+var lastSeen;
 
-$.post("./backend/data.php",{"type": 6});
+function init() {
+	lastSeen = readCookie("lastSeen");
 
-$.post("./backend/data.php",{"type": 1},function(res) {
-	data = res;
-	$('#median').bind('change', function(){useMedian ^= 1;display(curD)});
-	$('#practice').bind('change', function(){practiceMode ^= 1;display(curD)});
-	$('#practice').prop('checked',true);
-	sortProblems(0);
-	displayAnnouncement();
-});
+	$.post("./backend/data.php",{"type": 6});
+
+	$.post("./backend/data.php",{"type": 1},function(res) {
+		data = res;
+		$('#median').bind('change', function(){useMedian ^= 1;display(curD)});
+		$('#practice').bind('change', function(){practiceMode ^= 1;display(curD)});
+		$('#practice').prop('checked',true);
+		sortProblems(0);
+		displayAnnouncement();
+	});
+}
+
+$(init);
 
 function displayAnnouncement() {
 	if(lastSeen == lastUpdate) return;
