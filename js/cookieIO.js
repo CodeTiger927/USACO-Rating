@@ -24,3 +24,12 @@ function readCookie(name) {
     }
     return '';
 }
+
+// To help users transition between the two storage methods
+function copyOverCookies() {
+    var cookies = document.cookie.split(";");
+    for(var i = 0;i < cookies.length;i++) {
+        if(cookies[i].split("=")[1]) writeRecord(cookies[i].split("=")[0],cookies[i].split("=")[1]);
+        writeCookie(cookies[i].split("=")[0],"",-1);
+    }
+}

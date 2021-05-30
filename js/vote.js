@@ -3,15 +3,17 @@ var curD = 0;
 var udata,urating,uquality;
 
 function init() {
+	copyOverCookies();
+	
 	var id = getUrlParameter("id");
 	if(!id) {
-		id = readCookie("uid");
+		id = readRecord("uid");
 	}
 	if(!id) {
 		alert("D: You need to use your invite link at least once first to activate this page.");
 		window.location.replace("../");
 	}else{
-		writeCookie("uid",id,365);
+		writeRecord("uid",id,365);
 		$.post("../backend/data.php",{"type": 2,"id": id},function(res) {
 			if(res[0] == -1) {
 				alert("Your invite link is invalid >.<");

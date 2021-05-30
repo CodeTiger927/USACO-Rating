@@ -4,12 +4,12 @@ var curD = 0;
 var useMedian = false;
 var practiceMode = true;
 
-var lastUpdate = "5-28-2021";
+var lastUpdate = "5-30-2021";
 var lastSeen;
 
 function init() {
-	lastSeen = readCookie("lastSeen");
-
+	copyOverCookies();
+	lastSeen = readRecord("lastSeen");
 	$.post("./backend/data.php",{"type": 6});
 
 	$.post("./backend/data.php",{"type": 1},function(res) {
@@ -26,7 +26,7 @@ $(init);
 
 function displayAnnouncement() {
 	if(lastSeen == lastUpdate) return;
-	writeCookie("lastSeen",lastUpdate,365);
+	writeRecord("lastSeen",lastUpdate,365);
 	$('#Announcements').modal('show');
 }
 
@@ -112,7 +112,7 @@ function quality2Str(quality,cnt) {
 
 function updateStatus(id) {
 	var cur = (getStatus(id) + 1) % 4;
-	writeCookie("Status" + id,cur);
+	writeRecord("Status" + id,cur);
 	return cur;
 }
 
@@ -124,11 +124,11 @@ function statusToColor(status) {
 }
 
 function getStatus(id) {
-	var res = parseInt(readCookie("Status" + id));
+	var res = parseInt(readRecord("Status" + id));
 	if(res) {
 		return res;
 	}
-	writeCookie("Status" + id,0);
+	writeRecord("Status" + id,0);
 	return 0;
 }
 
