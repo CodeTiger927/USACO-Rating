@@ -192,6 +192,9 @@ function sortProblemsCmp(a,b) {
 }
 
 function sortProblems(type) {
+	$("#contest").text("Contest " + (type == 0 ? '▾' : '▴'));
+	$("#difficulty").text("Difficulty " + (type == 1 ? '▾' : '▴'));
+	$("#quality").text("Quality " + (type == 2 ? '▾' : '▴'));
 	sortMode = type;
 	data.sort(sortProblemsCmp);
 	display(curD);
