@@ -72,10 +72,77 @@
 		<h4>Vote on the USACO problems</h4>
 		<hr>
 		<p>Love that enthusiasm! However, we are slightly strict on who are "qualified" to vote, as we want to maintain maximum quality. Since this project estimates difficulties in terms of CodeForce rating, we do require voters to be experienced at CF.</p>
-		<p>If you have a rating of 1900+, you are definitely qualified by our standards! If you don't but feel like you are qualified, you can still apply. Note that you don't necessarily need 1900+ if you intend to vote on lower divisions. For example, a 1500 for silver might suffice given the right circumstances. We manually review each application, so there is leniency and other factors (such as CF solve count). In either case, fill out the Google Form below (if the form doesn't work, click <a href="https://forms.gle/XgoFShucMsJ5jA8t7">here</a>), and we will message you the invitation links <b>through CodeForces</b>. Alternatively you can directly contact me from the <a href="./about.html">About</a> page.</p><br>
+		<p>If you have a rating of <b>1900+</b>, you are definitely qualified by our standards! We encourage you to use the <b>automatic registration system</b> below! If your rating is below 1900 but still feel like you are qualified, please read the next section.<br></p>
+		<div class="alert alert-warning">
+			<b><i>Do This First</i>:</b> Change your first name in CodeForces (temporarily) <a href="https://codeforces.com/settings/social" target="_blank">HERE</a> to "<b>USACO-Rating-verify</b>" before registering.
+		</div>
+		<div id="status"></div>
+		<br>
+		<div class="grayContainer" style="font-size: 21px;">
+			<label for="username"><b>CodeForces Handle</b></label>
+			<input required type="text" class="form-control" id="username" placeholder="Enter CodeForces Handle">
+			<br>
+			<label for="name"><b>Name (just first name is fine)</b></label>
+			<input required type="text" class="form-control" id="name" placeholder="Enter your name">
+			<br>
+			<button type="submit" class="btn btn-primary" onclick="register();">Register</button>
+		</div>
+		<hr>
+		<h4>Manual Review Form</h4>
+		<p>You don't necessarily need 1900+ if you intend to vote on lower divisions. For example, a 1500 for silver might suffice given the right circumstances. We manually review each application, so there is leniency and other factors (such as CF solve count). In any case, fill out the Google Form below (if the form doesn't work, click <a href="https://forms.gle/XgoFShucMsJ5jA8t7">here</a>), and we will message you the invitation links <b>through CodeForces</b>. Alternatively you can directly contact me from the <a href="./about.html">About</a> page.</p></p>
+
 		<div style="width: 100%;text-align: center;">
 			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdQQ77ZAz7_Ohy5GUgALy8BEAPB9Ko95CIk5o7xJcOFM2Gvxg/viewform?embedded=true" width="800" height="1724" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 		</div>
 	</div>
+
+	<div class="modal fade" id="statusUpdate" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="announcementTitles">YOU ARE IN!!!</h4>
+				</div>
+				<div class="modal-body">
+					<p>Thank you for volunteering to help vote on USACO Rating! Before I give you the invite link, here is a few tips:</p>
+					<ol>
+						<li>Remember to click the "<b>Save Votes</b>" button at the bottom of the page. Also it takes a few seconds to save, so don't worry if the website is taking longer than expected.</li>
+						<li> The votes <b>do not automatically save when you switch between divisions</b>. So be careful not to click on another tab before you save your votes.</li>
+					</ol>
+
+					<p>Here is your invite link (remember to not share it with others, as then they can impersonate you): <a href="" id="uniqueLink"></a>. Note that once you click the link, your login info should automatically become saved in cookie, and you can just use the "Vote" tab in the future.</p>
+
+					<p>Thanks again for wanting to help this project! It is greatly appreciated <3</p>
+
+					<p>Hope you have a good day,</p>
+					<p>CodeTiger</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		function register() {
+			var username = $("#username").val();
+			var name = $("#name").val();
+			$.post("../backend/data.php",{"type":7,"username":username,"name":name},(data) => {
+				console.log(data);
+				if(data["status"] == 1) {
+					// Yay success
+					var id = data["id"];
+					$("#uniqueLink").attr("href","https://codetiger.me/project/usaco/frontend/vote.html?id=" + id);
+					$("#uniqueLink").text("https://codetiger.me/project/usaco/frontend/vote.html?id=" + id);
+					$("#statusUpdate").modal("show");
+				}else{
+					// Some error
+					var message = data["message"];
+					$("#status").empty();
+					$("#status").html("<div class='alert alert-danger'><b>An error has occured!</b> " + message + "</div>");
+				}
+			});
+		}
+	</script>
 </body>
 </html>
