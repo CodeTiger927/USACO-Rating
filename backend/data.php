@@ -73,10 +73,8 @@
 			$uid = generateRandomString();
 			$name = $_POST["name"];
 			$cf = $_POST["cf"];
-			$stmt = $conn -> prepare("INSERT INTO users (id,name,cf) VALUES (?,?,?)");
-			$stmt -> bind_param("sss",$uid,$name,$cf);
-			$stmt -> execute();
-			$stmt -> close();
+			
+			registerAccount($uid,$name,$cf);
 
 			$data = [];
 			$data["id"] = $uid;
@@ -115,6 +113,75 @@
 		$conn -> query("INSERT INTO stats (type,value) VALUES ('" . $date . "',1) 
 			ON DUPLICATE KEY UPDATE value = value + 1;");
 		$conn -> query("UPDATE stats SET value = value + 1 WHERE type = 'visit'");
+	}else if($type == 7) {
+		// Automatic registration
+
+		if(!isset($_POST["username"]) || !isset($_POST["name"])) {
+			$data["success"] = -5;
+			$data["message"] = "A required field is empty";
+			header('Content-type:application/json;charset=utf-8');
+			echo json_encode($data);
+			exit("");
+		}
+
+		$username = strtolower($_POST["username"]);
+		$CFUsers = callAPI("http://codeforces.com/api/user.info?handles=" . $username) -> result;
+
+		if(count($CFUsers) == 0) {
+			$data["success"] = -1;
+			$data["message"] = "The codeforces account does not exist!";
+			header('Content-type:application/json;charset=utf-8');
+			echo json_encode($data);
+			exit("");
+		}
+
+		$CFUsers = $CFUsers[0];
+		$firstName = $CFUsers -> firstName;
+		$rating = $CFUsers -> rating;
+
+		// 1900 Threshold
+		if($rating < 1900) {
+			$data["success"] = -2;
+			$data["message"] = "The codeforces account's rating does not meet the 1900 threshold. If you believe you are still qualified, please fill out the manual review form.";
+			header('Content-type:application/json;charset=utf-8');
+			echo json_encode($data);
+			exit("");
+		}
+
+		if(trim($firstName) != "USACO-Rating-verify") {
+			$data["success"] = -3;
+			$data["message"] = "The codeforces account's first name is not 'USACO-Rating-verify'";
+			header('Content-type:application/json;charset=utf-8');
+			echo json_encode($data);
+			exit("");
+		}
+
+		if(checkCodeForcesExist($conn,$username)) {
+			$data["success"] = -4;
+			$data["message"] = "You have already registered an account! Contact CodeTiger on discord if you lost your personalized link.";
+			header('Content-type:application/json;charset=utf-8');
+			echo json_encode($data);
+			exit("");
+		}
+
+		// Everything passes :D
+		$uid = generateRandomString();
+		$name = $_POST["name"];
+		
+		registerAccount($conn,$uid,$name,$username);
+
+		$data["status"] = 1;
+		$data["id"] = $uid;
+		$data["message"] = "Success!";
+		header('Content-type:application/json;charset=utf-8');
+		echo json_encode($data);
+	}
+
+	function registerAccount($conn,$uid,$name,$cf) {
+		$stmt = $conn -> prepare("INSERT INTO users (id,name,cf) VALUES (?,?,?)");
+		$stmt -> bind_param("sss",$uid,$name,$cf);
+		$stmt -> execute();
+		$stmt -> close();
 	}
 
 	function recalculateEverything($conn) {
@@ -270,5 +337,21 @@
 			$randomString .= $characters[rand(0, $charactersLength - 1)];
 		}
 		return $randomString;
+	}
+
+	function callAPI($url){
+		$result = json_decode(file_get_contents($url));
+		return $result;
+	}
+
+	function checkCodeForcesExist($conn,$cf) {
+		$stmt = $conn -> prepare("SELECT * FROM users WHERE cf=?");
+		$stmt -> bind_param("s",$cf);
+		$stmt -> execute();
+		$res = $stmt -> get_result();
+		if($res -> num_rows == 0) {
+			return false;
+		}
+		return true;
 	}
 ?>
