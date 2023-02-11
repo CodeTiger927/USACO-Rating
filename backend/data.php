@@ -74,7 +74,7 @@
 			$name = $_POST["name"];
 			$cf = $_POST["cf"];
 			
-			registerAccount($uid,$name,$cf);
+			registerAccount($conn,$uid,$name,$cf);
 
 			$data = [];
 			$data["id"] = $uid;
