@@ -175,6 +175,55 @@
 		$data["message"] = "Success!";
 		header('Content-type:application/json;charset=utf-8');
 		echo json_encode($data);
+	}else if($type == 8) {
+		// Invitation Link Recovery
+
+		if(!isset($_POST["username"])) {
+			$data["success"] = -1;
+			$data["message"] = "A required field is empty";
+			header('Content-type:application/json;charset=utf-8');
+			echo json_encode($data);
+			exit("");
+		}
+
+		$username = strtolower($_POST["username"]);
+
+		if(!checkCodeForcesExist($conn,$username)) {
+			$data["success"] = -2;
+			$data["message"] = "The account does not exist!";
+			header('Content-type:application/json;charset=utf-8');
+			echo json_encode($data);
+			exit("");
+		}
+
+		$CFUsers = callAPI("http://codeforces.com/api/user.info?handles=" . $username) -> result;
+
+		if(count($CFUsers) == 0) {
+			$data["success"] = -4;
+			$data["message"] = "The codeforces account does not exist!";
+			header('Content-type:application/json;charset=utf-8');
+			echo json_encode($data);
+			exit("");
+		}
+
+		$CFUsers = $CFUsers[0];
+		$firstName = $CFUsers -> firstName;
+
+		if(trim($firstName) != "USACO-Rating-verify") {
+			$data["success"] = -3;
+			$data["message"] = "The codeforces account's first name is not 'USACO-Rating-verify'";
+			header('Content-type:application/json;charset=utf-8');
+			echo json_encode($data);
+			exit("");
+		}
+
+		$uid = getUserId($conn,$_POST["username"]);
+		$data["success"] = 0;
+		$data["id"] = $uid;
+		header('Content-type:application/json;charset=utf-8');
+		echo json_encode($data);
+		exit("");
+
 	}
 
 	function registerAccount($conn,$uid,$name,$cf) {
@@ -354,4 +403,17 @@
 		}
 		return true;
 	}
+
+	function getUserId($conn,$cf_handle) {
+		$stmt = $conn -> prepare("SELECT * FROM users WHERE cf=?");
+		$stmt -> bind_param("s",$cf_handle);
+		$stmt -> execute();
+		$res = $stmt -> get_result();
+		if($res -> num_rows == 0) {
+			return "-1";
+		}
+		$info = $res -> fetch_assoc();
+		return $info["id"];
+	}
+
 ?>

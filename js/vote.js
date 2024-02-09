@@ -11,7 +11,7 @@ function init() {
 	}
 	if(!id) {
 		alert("D: You need to use your invite link at least once first to activate this page.");
-		window.location.replace("../");
+		window.location.replace("./recovery.html");
 	}else{
 		writeRecord("uid",id,365);
 		$.post("../backend/data.php",{"type": 2,"id": id},function(res) {

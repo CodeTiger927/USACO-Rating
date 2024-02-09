@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>USACO Rating - Recovery</title>
+	<meta charset="UTF-8">
+	<meta name="renderer" content="webkit">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- <link rel="icon" href="https://codetiger.me/image/article/image16.png"> -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<link rel="icon" href="../favicon.png">
+
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/utility.css">
+
+	<meta name="keywords" content="codetiger,blog,usaco,codeforces,rating,estimator,practice,converter,contribute">
+	<meta name="description" content="A tool to estimate the difficulties of USACO problems in terms of CodeForces rating.">
+	<meta name="Author" content="CodeTiger">
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+		<a class="mb-0 h1 navbar-brand active" href="../">USACO Rating</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+			<li class="nav-item">
+				<a class="nav-link" href="../">Problems</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="./faq.html">FAQ</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="./contribute.html">Contribute</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="./vote.html">Vote</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="./about.html">About</a>
+			</li>
+			<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			Links
+			</a>
+			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="http://usaco.org/">USACO</a>
+				<a class="dropdown-item" href="https://github.com/CodeTiger927/USACO-Rating">GitHub</a>
+				<a class="dropdown-item" href="https://codetiger.me/">CodeTiger</a>
+				<a class="dropdown-item" href="https://usaco.guide/">USACO Guide</a>
+			</div>
+			</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="main-container" style="margin-left: 10%;width: 80%;margin-right: 10%;">
+		<h2>Invitation Link Recovery</h2>
+		<hr>
+		<p>Have you received a link in the past but can no longer find it? If that is the case for, please use the form below to recover your invitation link!</p>
+		<p>If you have never obtained an invitation link before, please go to the <a href="contribute.html">Contribute Page</a> and register instead. It will give you the necessary instructions to become a volunteer. Thanks for volunteering!</p>
+		<div class="alert alert-warning">
+			<b><i>Do This First</i>:</b> Change your first name in CodeForces (temporarily) <a href="https://codeforces.com/settings/social" target="_blank">HERE</a> to "<b>USACO-Rating-verify</b>" before recovering the link.
+		</div>
+		<div id="status"></div>
+		<br>
+		<div class="grayContainer" style="font-size: 21px;">
+			<label for="username"><b>CodeForces Handle</b></label>
+			<input required type="text" class="form-control" id="username" placeholder="Enter CodeForces Handle">
+			<br>
+			<button type="submit" class="btn btn-primary" onclick="recover();">Recover</button>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		function recover() {
+			var username = $("#username").val();
+			$.post("../backend/data.php",{"type":8,"username":username},(data) => {
+				console.log(data);
+				if(data["success"] == 0) {
+					// Yay success
+					var id = data["id"];
+					location.replace("https://codetiger.me/project/usaco/frontend/vote.html?id=" + id)					
+				}else{
+					// Some error
+					var message = data["message"];
+					$("#status").empty();
+					$("#status").html("<div class='alert alert-danger'><b>An error has occured!</b> " + message + "</div>");
+				}
+			});
+		}
+	</script>
+</body>
+</html>
